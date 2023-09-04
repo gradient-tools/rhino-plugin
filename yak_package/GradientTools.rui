@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RhinoUI major_ver="3" minor_ver="0" guid="343c9998-e4ac-4178-89e8-de2e931ec7be" localize="False" default_language_id="1033" dpi_scale="100">
+  <extend_rhino_menus>
+    <menu guid="d58ceae7-fdb0-4104-80da-274b94ad44a9">
+      <text>
+        <locale_1033>Extend Rhino Menus</locale_1033>
+      </text>
+    </menu>
+  </extend_rhino_menus>
+  <menus />
+  <tool_bar_groups />
+  <tool_bars>
+    <tool_bar guid="03c04095-a5d8-423c-98ef-b4f9d840065f">
+      <text>
+        <locale_1033>GradientTools</locale_1033>
+      </text>
+      <tool_bar_item guid="248b65cf-5f6c-4166-a235-7c5fae607aed">
+        <text>
+          <locale_1033>Toolbar item</locale_1033>
+        </text>
+      </tool_bar_item>
+    </tool_bar>
+  </tool_bars>
+  <macros />
+  <bitmaps>
+    <small_bitmap item_width="16" item_height="16">
+      <bitmap />
+    </small_bitmap>
+    <normal_bitmap item_width="24" item_height="24">
+      <bitmap />
+    </normal_bitmap>
+    <large_bitmap item_width="32" item_height="32">
+      <bitmap />
+    </large_bitmap>
+  </bitmaps>
+  <scripts />
+</RhinoUI>
