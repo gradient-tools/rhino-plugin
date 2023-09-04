@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <Version>1.0</Version>
+    <Version>0.0.1</Version>
     <Title>GradientTools</Title>
     <Description>Description of GradientTools</Description>
     <TargetExt>.rhp</TargetExt>
