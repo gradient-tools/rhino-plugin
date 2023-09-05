@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RhinoUI major_ver="3" minor_ver="0" guid="343c9998-e4ac-4178-89e8-de2e931ec7be" localize="False" default_language_id="1033" dpi_scale="100">
+<RhinoUI major_ver="3" minor_ver="0" guid="8084be46-dd31-4ab0-8970-5bc6088d86ef" plug_in_guid="85e11df4-a01b-4a68-a820-e7a04d938e8b" localize="False" default_language_id="1033" dpi_scale="100">
   <extend_rhino_menus>
     <menu guid="d58ceae7-fdb0-4104-80da-274b94ad44a9">
       <text>
@@ -8,29 +8,133 @@
     </menu>
   </extend_rhino_menus>
   <menus />
-  <tool_bar_groups />
-  <tool_bars>
-    <tool_bar guid="03c04095-a5d8-423c-98ef-b4f9d840065f">
+  <tool_bar_groups>
+    <tool_bar_group guid="20696024-962b-4fad-a67c-8e107dfea551" dock_bar_guid32="00000000-0000-0000-0000-000000000000" dock_bar_guid64="093dc84a-8f28-4e5a-a65e-9403d752a761" active_tool_bar_group="9b3ba489-233a-4d77-b324-1b24d2024143" single_file="False" hide_single_tab="False" point_floating="1096,245">
       <text>
-        <locale_1033>GradientTools</locale_1033>
+        <locale_1033>Gradient Tools</locale_1033>
       </text>
-      <tool_bar_item guid="248b65cf-5f6c-4166-a235-7c5fae607aed">
+      <tool_bar_group_item guid="9b3ba489-233a-4d77-b324-1b24d2024143" major_version="1" minor_version="1">
         <text>
-          <locale_1033>Toolbar item</locale_1033>
+          <locale_1033>Gradient Tools</locale_1033>
         </text>
+        <tool_bar_id>4ea6ade9-d09f-48df-b2c3-049ea3566ef1</tool_bar_id>
+      </tool_bar_group_item>
+      <dock_bar_info dpi_scale="100" dock_bar="False" docking="True" horz="False" visible="False" floating="True" mru_float_style="8192" bar_id="59461" mru_width="868" point_pos="-2,-2" float_point="1096,245" rect_mru_dock_pos="0,0,35,766" dock_location_u="59421" dock_location="right" float_size="265,62" />
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="4ea6ade9-d09f-48df-b2c3-049ea3566ef1">
+      <text>
+        <locale_1033>Gradient Tools</locale_1033>
+      </text>
+      <tool_bar_item guid="f928461b-ed1e-48c7-b7a8-cffa4a1f162b" display_style_from_parent="False">
+        <left_macro_id>eb1bcfe4-23f9-4fd6-87b8-c136653ba791</left_macro_id>
       </tool_bar_item>
     </tool_bar>
   </tool_bars>
-  <macros />
+  <macros>
+    <macro_item guid="eb1bcfe4-23f9-4fd6-87b8-c136653ba791" bitmap_id="5c6d762a-1c4d-4be7-bd57-e44679deb69b">
+      <text>
+        <locale_1033>Macro</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Load AutoCAD aliases</locale_1033>
+      </tooltip>
+      <button_text>
+        <locale_1033 />
+      </button_text>
+      <script>!_GT_AutoCADAlias</script>
+    </macro_item>
+    <macro_item guid="390eb529-78ca-4be0-b2c1-9576b1ea951e" bitmap_id="9c3ddef7-5603-4280-aa84-b04c3f24bf12">
+      <text>
+        <locale_1033>Macro 00</locale_1033>
+      </text>
+      <button_text>
+        <locale_1033>btn 2</locale_1033>
+      </button_text>
+    </macro_item>
+    <macro_item guid="bbae91f8-feb1-43cb-89ba-6569f7681440" bitmap_id="81c6ed1d-22be-4883-b0bb-4846d4c4947a">
+      <text>
+        <locale_1033>Macro 01</locale_1033>
+      </text>
+      <button_text>
+        <locale_1033>btn 3</locale_1033>
+      </button_text>
+    </macro_item>
+    <macro_item guid="42c26e5c-c2ec-4396-adc7-9f9984f5cb86" bitmap_id="62a8af06-0eaa-4cba-87b7-50c340d9d146">
+      <text>
+        <locale_1033>Macro 02</locale_1033>
+      </text>
+      <button_text>
+        <locale_1033>btn 4</locale_1033>
+      </button_text>
+    </macro_item>
+    <macro_item guid="f0d97e5d-6311-4638-bc88-b8ec75295b23" bitmap_id="dbd2dbe0-d974-40b2-8129-661397bd6cfb">
+      <text>
+        <locale_1033>Macro 03</locale_1033>
+      </text>
+      <button_text>
+        <locale_1033>btn 4</locale_1033>
+      </button_text>
+    </macro_item>
+  </macros>
   <bitmaps>
     <small_bitmap item_width="16" item_height="16">
-      <bitmap />
+      <bitmap_item guid="5c6d762a-1c4d-4be7-bd57-e44679deb69b" index="0" />
+      <bitmap_item guid="9c3ddef7-5603-4280-aa84-b04c3f24bf12" index="1" />
+      <bitmap_item guid="81c6ed1d-22be-4883-b0bb-4846d4c4947a" index="2" />
+      <bitmap_item guid="62a8af06-0eaa-4cba-87b7-50c340d9d146" index="3" />
+      <bitmap_item guid="dbd2dbe0-d974-40b2-8129-661397bd6cfb" index="4" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABAAAABQCAYAAAAQq/UNAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAAcSURBVFhH7cGBAAAAAMOg+VNf4QBVAAAAAACX
+GhRQAAHn9VY5AAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
     </small_bitmap>
     <normal_bitmap item_width="24" item_height="24">
-      <bitmap />
+      <bitmap_item guid="5c6d762a-1c4d-4be7-bd57-e44679deb69b" index="0" />
+      <bitmap_item guid="9c3ddef7-5603-4280-aa84-b04c3f24bf12" index="1" />
+      <bitmap_item guid="81c6ed1d-22be-4883-b0bb-4846d4c4947a" index="2" />
+      <bitmap_item guid="62a8af06-0eaa-4cba-87b7-50c340d9d146" index="3" />
+      <bitmap_item guid="dbd2dbe0-d974-40b2-8129-661397bd6cfb" index="4" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAB4CAYAAADogzKiAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAU7SURBVGhD7ZV7TNV1FMCvjx5bW63+ccs57v29
+X/cBpNcHt5sgrxWCNEgzgamztNKoTET06tKrpJGIwEXA6xXmFRDwComSqJgozhQflCCIrn+sZdpy
+cyOV0/ldviubKejf3892BrvnfM/5nvM95/wMQ1HCMC9VMcLBJkZoP4pyyiS2XxLF9quKtPGH8PBn
+iNlTM2KHqOVWCTK0sCJ8j3KakeAiJ0OvLN7qVZRIYvd0lJnNYqnVej0gKnDkgQDnGBl6ZBn6VGn7
+1ZCQ54n5k1GdkjKq2GJb7lXMd5s5IRjgoNkGRxUrdGCAn3gZrqjKjWuKopAjT8bXysRXtmqhp2pF
+GZpZAVowi43mUChTbXCGV+ACK2EWCvRpYhk58mTkW60xxZp1IMDjzTFAlWaFFaIG6zFIq2QOlukS
+vk2PptzvMxpDyLHhkWIwjPrGYjvmk1TYi84bMYt8SyjkiNqPLs18bfdrdjiLb3GexcdW9LeQ3YAN
+QY4PjdsSZv9KtdzbzYlQhwGqLTZw28LBpVji1tnCVuVNihg4aQ6DM8GOkqBXEzt6VHYcOf54XAbD
+yC9VW4FHVAH7H2p5CUqnOMAdPvGyrs+PeMNZ7Jz6ayAyCk5hBnpXdQvC7T6znBh0MBTZvHXselHt
+8KFzP0qNfSKUREXDVufUDbq+KCLi5e3x8Sd2J7wFrZhZG3bXWbxErywXBB0MhUtQ4jZz0h/BAPgG
+lfHxUB4dc7MsOi6GmBgC0yLzWqyhcBRL2IoB2vDvJVG4Pqx3WMPJ7iI84NVrP3kK1KQkg39GUrs/
+xjEuIAhTmkTZd4AT7xxC/WEUfT506RAluKqIGcTNo3Gz/EUPHvRi3zcmJ0LjnJlQP/3NihqGKavh
+hF8aUNeEorfudziAh1BaUFp5AQdP6MQsRhJXD7PMyFs34m2K8LB/wgRonZcGtTHRAxWceK8aS7YH
+f6/D7PbhbOwXJGjSLNCE79CMv+kBzwn83Z8lSSPuHiablbZvYngoRON9sdHgHz8BdmDAChQ/ZrQL
+pVJSoALfxodDVoFB9cBNmhn245lmXrjfJQsLibv/8jHHvZhj5G/nYoAtmHIJOtiGtyyVVShBhx68
+pQdvrpdvG0o5yk50rrdyAIM2SHJwKNskwdupKM8St/+SxQpxOax0fx3edhM6z8U5cAsKbMCAm0lW
+eumKB2WglBXu+Izsn5WCPFCrmqEeRS8hfjdO4vfiVeL2H0Ys56S1K3HPr0HnKyUNVuBCW41T6g5h
++vOMpt4CE3cYxVfEcGs9Jm5huZFN3SmpaZVRUbcq42KhJnpasFz1JvbGAZ63Er+DuLA82YLcoDtd
+pS+0sPGwJcJxJ88+aclnY8a8UIJfLpfTOboad9SDva7/vyc2tqM6NRn2vPM21OK+0oczwPDpxGSQ
+HFnmszm1G5cZNL6bCgfSZ8Pe2alXds1MGENMHkn9ePvqwKwUaHhvJnybnASVmLXPxFcR9SDLGCUy
+i9P6Cx2vQ/uH86F1QQY0Z8zOJerHsovn7Y2JCXBo7hw4jG2trxYvw/6ez3HPERNsT05x5eCOPz4/
+A85nLoL2RQv6T7yfNpaoHwsux9F+p7P/+Adzg5drxuEsx93kCWHjiInBsJyXj+TZJ8PlrEzo+mIJ
+dH66sI6ohoXXbu9qm5cevNxpDLTTagOPifUStd6i8pzapMTT3Us/udmTlflX97LFM4hqWBSZwxzH
+0mdd7Fz60W9dny++UONw1BWGsElETaFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCj/g8Hw
+N+ENcA9xx2f/AAAAAElFTkSuQmCC</bitmap>
     </normal_bitmap>
     <large_bitmap item_width="32" item_height="32">
-      <bitmap />
+      <bitmap_item guid="5c6d762a-1c4d-4be7-bd57-e44679deb69b" index="0" />
+      <bitmap_item guid="9c3ddef7-5603-4280-aa84-b04c3f24bf12" index="1" />
+      <bitmap_item guid="81c6ed1d-22be-4883-b0bb-4846d4c4947a" index="2" />
+      <bitmap_item guid="62a8af06-0eaa-4cba-87b7-50c340d9d146" index="3" />
+      <bitmap_item guid="dbd2dbe0-d974-40b2-8129-661397bd6cfb" index="4" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAACAAAACgCAYAAABtym4sAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAAqSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAA
+AAAAAAAAAAAAAAAAwLkaUKAAAd99Ae8AAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
     </large_bitmap>
   </bitmaps>
   <scripts />
