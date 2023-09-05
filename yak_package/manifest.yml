@@ -1,7 +1,8 @@
 ---
 name: GradientTools
-version: 0.0.1
+version: 0.0.2
 authors:
   - GradientTools
-description: Rhino plugin from Gradient Tools
-url: https://gradient.tools/
+description: Description of GradientTools
+url: https://github.com/gradient-tools/rhino-plugin
+icon: icon.png
